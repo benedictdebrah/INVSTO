@@ -18,3 +18,9 @@
 - Function to check if the inputs are in the right datatype if not, the function makes the corrections
 - Function to plot winning signals and loosing signals
 - Created a streamlit app for frontend
+
+#### How to use this app.
+- Required columns format  'datetime','close','high','low','open','volume','instrument'
+- For the datatypes there is a function that check datatypes validity (if not it makes the right changes provided the columns are in the right format.
+- Compatible with excel files
+- visit the link <a href='#'></a>
