@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.graph_objects as go
 from datetime import datetime
 from strategy import moving_average_crossover,validate_data_types
-from backtest import display_pl_table,calculate_pnl,plot_winning_losing_percentage
+from backtest import calculate_pnl,plot_winning_losing_percentage
 
 
 st.title('Moving Average Crossover Strategy')
