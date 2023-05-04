@@ -2,7 +2,7 @@
 #### This project aims to analyze data and create an investing/trading strategy for the data. The data is uploaded to a PostgreSQL database using Python.
 <br>
 
-#### 1. To upload the data to the database, the following steps were taken:
+#### 1. Uploading the data to the database, the following steps were taken:
 
 - Created a PostgreSQL database on my local machine
 - Installed the necessary packages, including psycopg2 and pandas
@@ -13,4 +13,8 @@
 - Where this <b>pg_dump -h localhost -p 5432 -U postgres INVSTO > invsto_backup.sql</b> was used to get a backup for my database 
 
 
-#### 2. Analysis of the dataset
+#### 2. Strategy and Backtesting
+- Created a function for 8window and 21 window moving averages
+- Function to check if the inputs are in the right datatype if not, the function makes the corrections
+- Function to plot winning signals and loosing signals
+- Created a streamlit app for frontend
