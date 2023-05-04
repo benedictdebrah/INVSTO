@@ -23,4 +23,4 @@
 - Required columns format  'datetime','close','high','low','open','volume','instrument'
 - For the datatypes there is a function that check datatypes validity (if not it makes the right changes provided the columns are in the right format.
 - Compatible with excel files
-- visit the link <a href='#'></a>
+- #### visit the link <a href='https://benedictdebrah-invsto-app-c0k8zb.streamlit.app/'>Demo</a>
