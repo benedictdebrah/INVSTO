@@ -38,7 +38,7 @@ def plot_winning_losing_percentage(pnl):
     df = pd.DataFrame(data)
 
     # chart
-    fig = px.bar(df, x='type', y='percentage', title='Winning and Losing Trades Percentage',text='percentage')
+    fig = px.pie(df, names='type', values='percentage', title='Winning and Losing Trades Percentage')
 
     
     st.plotly_chart(fig)
